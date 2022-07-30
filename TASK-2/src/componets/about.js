@@ -9,9 +9,6 @@ export default function About(){
             <h3>about</h3>
             <h3>about</h3>
             <h3>about</h3>
-            <h1>
-                startup 1
-            </h1>
         </div>
     )
 }
