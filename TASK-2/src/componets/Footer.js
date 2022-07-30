@@ -8,8 +8,6 @@ export default function Footer(){
             <h3>footer</h3>
             <h3>footer</h3>
             <h3>footer</h3>
-            </div>
-            <div>
             <h3>footer</h3>
             <h3>footer</h3>
             <h3>footer</h3>
