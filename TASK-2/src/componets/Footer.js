@@ -17,7 +17,7 @@ export default function Footer(){
             <h3>footer</h3>
             </div>
             <h1>
-                startup 1
+                @Yakshesh Gupta Production
             </h1>
         </div>
     )
