@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://ipfs.io/ipfs/QmZ8hbMzzKeukEZKkjynqMsGZPYyN5iJW6esGXy98L24Lq');
+  background-image: url('../../ADG_WEB_TASK/adglogo.png');
   /* background-image: url('./../public/image/11.jpeg'); */
   min-height: 500px;
   background-attachment: fixed;
@@ -70,5 +70,14 @@ ul li{
   margin-bottom: -27px;
   text-align:justify;
   backdrop-filter: blur(50px);
+
+}
+/* content */
+.content{
+  display: grid;
+  /* backdrop-filter: blur(100px); */
+  color:#f1f1f1;
+  grid-template-columns: repeat(3, 1fr);
+  margin:-20px 0px -25px 10px;
 
 }

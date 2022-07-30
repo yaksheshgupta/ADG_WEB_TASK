@@ -4,34 +4,24 @@ export default function nav(){
         <div >
             <ul className="navname ">
                 <li style={{marginLeft:100}}>
-                    Sup1
+                    ADG Task-2
                 </li>
             <div className="dropdown" style={{marginLeft:200}}>
-            <button className="dropbtn">Medical Consult</button>
-            <div className="dropdown-content" style={{minWidth: 190}}>
-                    <a href="/">Mental Health</a>
-                    <a href="/">Sexual Health</a>
-                    <a href="/">Physical Health</a>
-            </div>
+            <button className="dropbtn" href="#">This Github</button>
             </div>
             <div className="dropdown" style={{marginLeft:60}}>
-            <button className="dropbtn">Legal Consult</button>
+            <button className="dropbtn">Social Media</button>
             <div className="dropdown-content"style={{minWidth: 190}}>
-                <a href="/">Criminal LawSuit</a>
-                <a href="/">Civil LawSuit</a>
-                <a href="/">Cyber LawSuit</a>
+                <a href="/">Instagram</a>
+                <a href="/">Linked In</a>
+                <a href="/">Twitter</a>
             </div>
             </div>
             <div className="dropdown" style={{marginLeft:70}}>
-            <button className="dropbtn">basic conselt</button>
-            <div className="dropdown-content">
-                <a href="/">Will Decide</a>
-                <a href="/">Will Decide</a>
-                <a href="/">Will Decide</a>
-            </div>
+            <a className="dropbtn" href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids">Github</a>
             </div>
             <div className="dropdown" style={{marginLeft:70}}>
-            <button className="dropbtn">Que/Ans</button>
+            <a className="dropbtn" href="/">Twitter</a>
             </div>
                    
             <div className="dropdown" style={{marginLeft:40}}>
