@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script>
+        function hamburger(){
+            var element = document.getElementById("ham");
+            element.classList.toggle("ham-grid");
+        }
+    </script>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- NavBar -->
+    <div style="background-color: cornflowerblue;" class="nav">
+    <div style="text-align: center; position: relative;" >
+            Media Query 
+            <div id="hampage" class="ham-grid" style="position: absolute;left: 50vw;">
+                <a href="/" class="hamgrid-content" style="color:black">
+                    Home
+                </a>
+                <a  href="/"style="color:black"class="hamgrid-content">
+                    GitLink
+                </a>
+                <a  href="https://adgvit.com/" class="hamgrid-content" style="color:black">
+                    ADG WebSite
+                </a>
+                <a  style="color:black" class="hamgrid-content">
+                    Its mee!!
+                </a>
+        </div>
+                <button class="toggle" id="ham" onclick="hamburger()"> button</button>
+                <!-- hamburger content -->
+
+<!-- hamburger content end -->
+        </div>
+        <div class="grid_nav">
+            <a href="/" class="grid_nav_item" style="color:black">
+                Home
+            </a>
+            <a class="grid_nav_item" href="/"style="color:black">
+                GitLink
+            </a>
+            <a class="grid_nav_item" href="https://adgvit.com/" style="color:black">
+                ADG WebSite
+            </a>
+            <a class="grid_nav_item" style="color:black">
+                Its mee!!
+            </a>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    
+    <!-- Landing page -->
+    <div class="grid">
+        <div class="grid-item" style="text-align: center;">
+            <div style="font-size:larger;">
+                Club
+            </div>
+
+            <img src="adglogo.png"alt="Italian Trulli">
+        </div>
+        <div class="grid-item" style="text-align: center;">
+            <div style="font-size:larger;">
+                Idea
+            </div>
+            <div style="padding-top:3rem ;">ADGVIT is a student community at VIT that brings together like-minded individuals who are interested in Developing their Dream. The group provides a platform for students to explore their interests while collaborating with others on projects. The aim of the group is to enable students to develop themselves as developers and provide them with all the tools they need for success.</div>
+        </div>
+    </div>
+    <!-- Navbar end -->
+</body>
+</html>
