@@ -7,46 +7,46 @@
 <body>
     <script>
         function hamburger(){
-            var element = document.getElementById("ham");
+            var element = document.getElementById("hampage");
             element.classList.toggle("ham-grid");
         }
     </script>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- NavBar -->
     <div style="background-color: cornflowerblue;" class="nav">
     <div style="text-align: center; position: relative;" >
-            Media Query 
-            <div id="hampage" class="ham-grid" style="position: absolute;left: 50vw;">
-                <a href="/" class="hamgrid-content" style="color:black">
+            Media Query Demonstration
+            <div id="hampage" class="ham-grid ham-hide" style="position: absolute;left: 50vw;">
+                <a href="#" class="hamgrid-content" style="color:black">
                     Home
                 </a>
-                <a  href="/"style="color:black"class="hamgrid-content">
+                <a  href="#"style="color:black"class="hamgrid-content">
                     GitLink
                 </a>
                 <a  href="https://adgvit.com/" class="hamgrid-content" style="color:black">
                     ADG WebSite
                 </a>
-                <a  style="color:black" class="hamgrid-content">
-                    Its mee!!
+                <a href="https://adgvit.com/" style="color:black" class="hamgrid-content">
+                    Dummy
                 </a>
         </div>
-                <button class="toggle" id="ham" onclick="hamburger()"> button</button>
+                <button class="toggle" id="ham" onclick="hamburger()"> Menu</button>
                 <!-- hamburger content -->
 
 <!-- hamburger content end -->
         </div>
         <div class="grid_nav">
-            <a href="/" class="grid_nav_item" style="color:black">
+            <a href="#" class="grid_nav_item" style="color:black">
                 Home
             </a>
-            <a class="grid_nav_item" href="/"style="color:black">
+            <a class="grid_nav_item" href="#"style="color:black">
                 GitLink
             </a>
             <a class="grid_nav_item" href="https://adgvit.com/" style="color:black">
                 ADG WebSite
             </a>
-            <a class="grid_nav_item" style="color:black">
-                Its mee!!
+            <a href="https://adgvit.com/" class="grid_nav_item" style="color:black">
+                Dummy
             </a>
         </div>
     </div>
@@ -59,7 +59,9 @@
                 Club
             </div>
 
-            <img src="adglogo.png"alt="Italian Trulli">
+            <img src="../adglogo.png"alt="Italian Trulli">
+            <br/>
+            Logo
         </div>
         <div class="grid-item" style="text-align: center;">
             <div style="font-size:larger;">

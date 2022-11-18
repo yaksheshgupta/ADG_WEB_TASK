@@ -15,17 +15,16 @@ body{
     justify-content: center;
 }
 .grid-item{
+    justify-content: center;
     border-radius: 90px;
-    max-width:25rem; 
-
     width: auto;
     height:auto;
     background-color:blanchedalmond;
-    padding: 1rem ;
+    padding: 16px ;
     font-size: large;
 }
 .ham-grid{
-    display: grid;
+    display: none;
     grid-template-columns:auto ;
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.376);
@@ -57,16 +56,22 @@ img{
     text-align: center;
 }
 .toggle{
+    display: none;
     color:blueviolet;
 }
-@media (max-width:700px) {
+
+.ham-hide {
+    display: none;
+}
+
+@media (max-width:1024px) {
     .grid{
         grid-template-columns:auto;
     }
     body{
         background-color:lavender;
     }
-
+    
     .grid-item{
         background-color:thistle;
     }
@@ -74,19 +79,31 @@ img{
         display: none;
     }
 }
-@media (min-width:700px) {
+
+@media only screen and  (max-width: 1042px) {
+
     .ham-grid{
-        display: none;
+            display: grid;
     }
     .toggle{
-        display: none;
+        display: inline;
     }
-}
-@media (max-height:700px) {
     body{
         background-color:honeydew;
     }
     .grid-item{
         background-color: lightblue;
+    }
+}
+
+@media (max-width:600px) {
+    body{
+        background-color: cyan;
+    }
+}
+
+@media (max-height:600px ) and (min-height:400px ) {
+    body{
+        background-color: cyan;
     }
 }
